@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio Michala Osakovského, študenta elektronického obchodu a manažmentu."
+    />
+    <meta name="theme-color" content="#071d49" />
+    <title>Michal Osakovský — e-commerce &amp; manažment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#obsah">Preskočiť na obsah</a>
+
+    <header class="site-header">
+      <nav class="navigation container" aria-label="Hlavná navigácia">
+        <a class="wordmark" href="#domov" aria-label="Michal Osakovský — úvod">
+          <span class="wordmark-mark">M<span>.</span></span>
+          <span class="wordmark-name">Michal Osakovský</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="Otvoriť navigáciu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a class="nav-link is-active" href="#domov">Domov</a>
+          <a class="nav-link" href="#o-mne">O mne</a>
+          <a class="nav-link" href="#projekty">Projekty</a>
+          <a class="nav-link nav-contact" href="#kontakt">Kontakt <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="obsah">
+      <section class="hero section-shell" id="domov" aria-labelledby="hero-title">
+        <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+        <div class="hero-inner container">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Osobné portfólio</p>
+            <h1 id="hero-title">Nápady, ktoré dávajú <span>obchodu</span> zmysel.</h1>
+            <p class="hero-description">
+              Som Michal Osakovský, študent elektronického obchodu a manažmentu.
+              Zaujíma ma, ako prepájať dobrú zákaznícku skúsenosť s premyslenými
+              obchodnými riešeniami.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projekty">
+                Pozrieť projekty <span aria-hidden="true">↘</span>
+              </a>
+              <a class="text-link" href="#o-mne">Spoznajte ma <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="hero-note">
+              <span class="note-dot" aria-hidden="true"></span>
+              <span>Študent · e-commerce · manažment</span>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Prehľad oblastí môjho záujmu">
+            <div class="visual-card visual-main">
+              <div class="visual-topline">
+                <span class="visual-label">Digitálny obchod</span>
+                <span class="visual-icon" aria-hidden="true">↗</span>
+              </div>
+              <div class="visual-chart" aria-hidden="true">
+                <div class="chart-grid"></div>
+                <svg viewBox="0 0 460 180" role="presentation">
+                  <defs>
+                    <linearGradient id="chartFill" x1="0" x2="0" y1="0" y2="1">
+                      <stop offset="0%" stop-color="#0a70e8" stop-opacity=".2" />
+                      <stop offset="100%" stop-color="#0a70e8" stop-opacity="0" />
+                    </linearGradient>
+                  </defs>
+                  <path
+                    d="M0 146 C38 139 44 117 82 122 S126 148 164 112 S208 105 239 91 S284 103 316 66 S369 81 396 43 S437 38 460 16 V180 H0Z"
+                    fill="url(#chartFill)"
+                  />
+                  <path
+                    d="M0 146 C38 139 44 117 82 122 S126 148 164 112 S208 105 239 91 S284 103 316 66 S369 81 396 43 S437 38 460 16"
+                    fill="none"
+                    stroke="#0a70e8"
+                    stroke-linecap="round"
+                    stroke-width="4"
+                  />
+                  <circle cx="396" cy="43" r="6" fill="#ffffff" stroke="#0a70e8" stroke-width="4" />
+                </svg>
+              </div>
+              <div class="visual-bottomline">
+                <span>Stratégia</span>
+                <span>Skúsenosť</span>
+                <span>Výsledky</span>
+              </div>
+            </div>
+            <div class="visual-card visual-float">
+              <span class="float-icon" aria-hidden="true">✳</span>
+              <div>
+                <span class="float-title">Zvedavosť v praxi</span>
+                <span class="float-subtitle">Od nápadu k riešeniu</span>
+              </div>
+            </div>
+            <div class="visual-decoration" aria-hidden="true">M.</div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#o-mne">
+          <span class="scroll-line" aria-hidden="true"></span>
+          <span>Posuňte nižšie</span>
+        </a>
+      </section>
+
+      <section class="about section-space" id="o-mne" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="section-intro reveal">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Niečo o mne</p>
+            <h2 id="about-title">Obchod vnímam<br />očami <span>zákazníka.</span></h2>
+          </div>
+          <div class="about-content reveal">
+            <p class="about-lead">
+              Dobrý e-shop nie je len pekná stránka. Je to premyslená cesta od
+              prvého kliknutia až po spokojný návrat zákazníka.
+            </p>
+            <p class="body-copy">
+              Štúdium elektronického obchodu a manažmentu mi dáva priestor
+              rozumieť online predaju z viacerých uhlov — od marketingu a
+              komunikácie až po organizáciu a dáta. Najviac ma baví hľadať
+              praktické riešenia a premieňať nápady na jasný plán.
+            </p>
+            <div class="interest-list" aria-label="Oblasti záujmu">
+              <span>E-commerce</span>
+              <span>Marketing</span>
+              <span>Zákaznícka skúsenosť</span>
+              <span>Manažment</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="focus section-space" aria-labelledby="focus-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-line"></span> Čomu sa venujem</p>
+              <h2 id="focus-title">Od stratégie po <span>detail.</span></h2>
+            </div>
+            <p class="section-heading-copy">
+              Prepájam obchodné uvažovanie s citom pre ľudí, obsah a digitálne prostredie.
+            </p>
+          </div>
+          <div class="focus-grid">
+            <article class="focus-card reveal">
+              <span class="card-number">01</span>
+              <span class="focus-icon icon-blue" aria-hidden="true">↗</span>
+              <h3>Online obchod</h3>
+              <p>Premýšľanie nad tým, ako e-shop funguje a čo uľahčí nákup zákazníkom.</p>
+            </article>
+            <article class="focus-card reveal">
+              <span class="card-number">02</span>
+              <span class="focus-icon icon-gold" aria-hidden="true">✳</span>
+              <h3>Marketing a obsah</h3>
+              <p>Zrozumiteľná komunikácia, ktorá spája značku s potrebami jej publika.</p>
+            </article>
+            <article class="focus-card reveal">
+              <span class="card-number">03</span>
+              <span class="focus-icon icon-navy" aria-hidden="true">⌁</span>
+              <h3>Manažment</h3>
+              <p>Plánovanie úloh, hľadanie súvislostí a zodpovedný prístup k výsledkom.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section-space" id="projekty" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-line"></span> Ukážkové zadania</p>
+              <h2 id="projects-title">Nápady v <span>pohybe.</span></h2>
+            </div>
+            <p class="section-heading-copy">
+              Modelové koncepty, ktoré ukazujú oblasti, ktorým sa chcem ďalej venovať.
+            </p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-card-blue reveal">
+              <div class="project-art art-a" aria-hidden="true">
+                <div class="store-window">
+                  <span class="store-dot"></span><span class="store-dot"></span><span class="store-dot"></span>
+                  <div class="store-content">
+                    <span class="store-kicker">ONLINE STORE</span>
+                    <span class="store-line"></span>
+                    <span class="store-line short"></span>
+                    <span class="store-button"></span>
+                  </div>
+                  <div class="store-product"><span>01</span></div>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta"><span>01 / E-COMMERCE</span><span>Modelový koncept</span></div>
+                <h3>Jednoduchšia cesta k nákupu</h3>
+                <p>Návrh prehľadnejšej štruktúry e-shopu s dôrazom na orientáciu a pohodlný výber.</p>
+              </div>
+            </article>
+            <article class="project-card project-card-cream reveal">
+              <div class="project-art art-b" aria-hidden="true">
+                <div class="campaign-sheet">
+                  <span class="campaign-kicker">NOVÁ SEZÓNA</span>
+                  <span class="campaign-title">Menej,<br />ale lepšie.</span>
+                  <span class="campaign-caption">KOMUNIKAČNÝ KONCEPT</span>
+                  <div class="campaign-sun"></div>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta"><span>02 / MARKETING</span><span>Modelový koncept</span></div>
+                <h3>Komunikácia, ktorá má smer</h3>
+                <p>Ukážka obsahového konceptu s jednotným tónom značky a jasným odkazom.</p>
+              </div>
+            </article>
+            <article class="project-card project-card-lilac reveal">
+              <div class="project-art art-c" aria-hidden="true">
+                <div class="report-card">
+                  <div class="report-head"><span>PREHĽAD VÝKONNOSTI</span><span>↗</span></div>
+                  <div class="report-value">01<span> / pohľad</span></div>
+                  <div class="report-bars" aria-hidden="true">
+                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                  </div>
+                  <div class="report-foot"><span>PREHĽADNE</span><span>ROZHODNUTIA</span></div>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta"><span>03 / DÁTA</span><span>Modelový koncept</span></div>
+                <h3>Čísla, ktorým rozumieme</h3>
+                <p>Koncept jednoduchého reportu, ktorý mení základné ukazovatele na zrozumiteľný prehľad.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-space" id="kontakt" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact-panel reveal">
+            <div class="contact-pattern" aria-hidden="true"></div>
+            <div class="contact-content">
+              <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> Ďalší krok</p>
+              <h2 id="contact-title">Každá dobrá spolupráca<br />začína <span>rozhovorom.</span></h2>
+              <p>
+                Máte otázku, nápad alebo príležitosť? Budem rád, keď sa spojíme.
+              </p>
+              <a class="button button-light" href="mailto:?subject=Pozdrav%20pre%20Michala%20Osakovsk%C3%A9ho">
+                Napísať e-mail <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <div class="contact-monogram" aria-hidden="true">M<span>.</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="wordmark footer-wordmark" href="#domov">
+          <span class="wordmark-mark">M<span>.</span></span>
+          <span class="wordmark-name">Michal Osakovský</span>
+        </a>
+        <p>Portfólio študenta e-commerce a manažmentu.</p>
+        <span class="copyright">© <span data-current-year></span> Michal Osakovský</span>
+      </div>
+    </footer>
+  </body>
+</html>
